@@ -8,8 +8,7 @@ Pod::Spec.new do |s|
     s.license           = { :type => 'MIT', :file => 'LICENSE' }
 
     s.platform          = :ios
-#    s.source            = { :http => 'https://github.com/1140lex/lex-set-sdk-framework/archive/v0.0.1.zip' }
-    s.source           = { :git => 'https://github.com/1140lex/lex-set-sdk-framework.git', :tag => s.version.to_s }
+    s.source           = { :git => 'https://github.com/1140lex/lex-set-sdk-framework-general.git', :tag => s.version.to_s }
 
     s.source_files      = "LexSetSdk.framework/Headers/*"
     s.ios.deployment_target = '11.3'
